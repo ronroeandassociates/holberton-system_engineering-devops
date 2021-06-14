@@ -1,0 +1,2 @@
+#!/bit/bin
+head -3 iacta | tail +3
