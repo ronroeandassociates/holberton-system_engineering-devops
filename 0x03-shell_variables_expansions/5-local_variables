@@ -1,2 +1,2 @@
-#1/bin/bash
-declare -p
+#!/bin/bash
+set
