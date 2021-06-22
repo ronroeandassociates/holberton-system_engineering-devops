@@ -6,17 +6,19 @@
 #Displays Buzz when the number is a multiple of 5
 #Otherwise, displays the number
 #In a list format
-for (( i=1; i -le 100; i++ ))
+for i in {1..100}
 do
-    if [[ $(( i%3 )) = 0 ]] && [[ $(( i%5 )) = 0 ]]
+    if ! (( i % 15 )) 
     then
 	echo "FizzBuzz"
-    elif [[ $(( i%3 )) = 0 ]]
+	elif ! (( i % 3 ))
     then
 	echo "Fizz"
-    elif [[ $(( i%5 )) = 0 ]]
+    elif ! (( i % 5 )) 
     then
 	echo "Buzz"
     else
 	echo $i
     fi
+    (( i++ ))
+done
