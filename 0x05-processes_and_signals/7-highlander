@@ -4,4 +4,9 @@
 
 trap echo "I am invincible!!!" SIGTERM SIGINT
 ./67-stop_me_if_you_can
-wait
+
+while:
+do
+	echo To infinity and beyond
+	sleep 2
+done
