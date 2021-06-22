@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 #script that displays Holberton School 10 times using while loop
 i=0
 while [ $i -lt 10 ]
