@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #added file to kill 67 a hybrid of 6 and 7
 
-while:
+while :
 do
 	echo "To infinity and beyond"
 	sleep 2
-	trap {echo "I am invincible!!!"} SIGTERM
+	trap "echo 'I am invincible!!!'" SIGTERM
 done
