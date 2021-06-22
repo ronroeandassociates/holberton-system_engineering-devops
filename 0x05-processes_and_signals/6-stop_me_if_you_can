@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # simple use of the pkill command of the previous work
 
-pkill "./4-to_infinity_and_beyond"
+pkill -f "./4-to_infinity_and_beyond"
