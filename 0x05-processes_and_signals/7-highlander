@@ -1,0 +1,9 @@
+#usr/bin/env bash
+#added file to kill 67 a hybrid of 6 and 7
+#kill signal is caught and ignored printing message instead
+
+trap "echo I am invincible!!!" SIGTERM SIGINT
+while:
+do
+	"./67-stop_me_if_you_can"
+done
