@@ -2,11 +2,9 @@
 #added file to kill 67 a hybrid of 6 and 7
 #kill signal is caught and ignored printing message instead
 
-trap echo "I am invincible!!!" SIGTERM SIGINT
-./67-stop_me_if_you_can
-
-while:
+while true;
 do
-	echo To infinity and beyond
+	echo "To infinity and beyond"
 	sleep 2
+	trap "echo 'I am invincible!!!'" SIGTERM
 done
