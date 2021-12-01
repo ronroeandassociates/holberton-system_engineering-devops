@@ -32,7 +32,7 @@ All your Bash script files must be executable
 Your Bash script must pass Shellcheck (version 0.3.3-1~ubuntu14.04.1 via apt-get) without any error
 The first line of all your Bash scripts should be exactly #!/usr/bin/env bash
 The second line of all your Bash scripts should be a comment explaining what is the script doing
-files 
+files
 0-what-is-my-pid
 1-list_your_processes
 2-show_your_bash_pid
@@ -43,3 +43,6 @@ files
 7-highlander
 8-beheaded_process
 
+<p align="center">
+<img src="/images/roeHR-01.png" width=10% height=10%>
+</p>

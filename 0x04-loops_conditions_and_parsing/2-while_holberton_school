@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 #script that displays Holberton School 10 times using while loop
 i=0
-while [ $i -lt 10 ]
-do 
-	echo "Holberton School" 
-	(( i++ ))
+while [ $i -lt 10 ]; do
+	echo "Holberton School"
+	((i++))
 done

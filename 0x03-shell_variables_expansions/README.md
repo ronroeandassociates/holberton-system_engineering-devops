@@ -15,3 +15,7 @@ files in this directory include
 12-combinations
 13-print_float
 The Learning Objectives is to learn the use of shell initialization files, variables, expansions, and shell arithmetic as well as how to do alias
+
+<p align="center">
+<img src="/images/roeHR-01.png" width=10% height=10%>
+</p>

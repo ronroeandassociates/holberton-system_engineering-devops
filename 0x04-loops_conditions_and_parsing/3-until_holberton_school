@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 # print "holberton school x 10
 i=1
-until [ $i -gt 10 ]
-do
+until [ $i -gt 10 ]; do
 	echo "Holberton School"
-	(( i++ ))
+	((i++))
 done

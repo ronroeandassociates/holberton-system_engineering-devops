@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
 #if 9 say hi
 i=0
-while [ $i -lt 10 ]
-do
-  echo "Holberton School";
+while [ $i -lt 10 ]; do
+  echo "Holberton School"
   ((i++))
-if [ $i = 9 ]; then echo "Hi"; fi;
+  if [ $i = 9 ]; then echo "Hi"; fi
 done
