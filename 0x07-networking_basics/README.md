@@ -33,5 +33,5 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What tool/protocol is often used to check if a device is connected to a network
 
 <p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
+<img src="../images/roeHR-01.png" width=10% height=10%>
 </p>
