@@ -2,6 +2,7 @@
 # This script install nginx on virtual server
 
 sudo apt-get update -y
+sudo apt-get upgrade -y
 sudo apt-get install nginx -y
 echo "Hello World" | sudo tee /var/www/html/index.html
 sudo service nginx restart
