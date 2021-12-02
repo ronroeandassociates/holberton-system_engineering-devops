@@ -1,0 +1,11 @@
+# This script configure a temp ssh_config file for client
+Host *
+    HostName 104.196.201.254
+    User ubuntu
+	PasswordAuthentication no
+	IdentifyFile ~/.ssh/school
+	SendEnv LANG LC_*
+	HashKnownHosts yes
+	GSSAPIAuthentication yes
+	GSSAPIDelegateCredentials no
+#   Port 22
