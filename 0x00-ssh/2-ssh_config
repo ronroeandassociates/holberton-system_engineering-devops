@@ -1,6 +1,6 @@
 # This script configure a temp ssh_config file for client
 Host *
-    HostName 35.243.130.24
+    HostName 35.190.162.102
     User ubuntu
 	PasswordAuthentication no
 	IdentifyFile ~/.ssh/school
