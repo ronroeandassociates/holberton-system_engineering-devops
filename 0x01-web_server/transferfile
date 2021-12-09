@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+# transfers a file from the client to the server
+
+if [ $# -lt 1 ]
+then
+    echo "Usage: trans <filenames>"
+else
+    read -p "Server Address: " server_ip
+    while [ -z "$server_ip" ]
+    do
+        read -p "Please enter a Server Address: " server_ip
+    done
+    case $server_ip in
+        web01)
+            server_ip="35.243.130.24"
+            ;;
+        web02)
+            server_ip="34.139.218.97"
+            ;;
+        lb01 | lb)
+            server_ip="34.139.6.242"
+            ;;
+    esac
+    read -p "Server User: " user
+    user=${user:-"ubuntu"}
+    read -p "Key Location: " key
+    key=${key:-~/.ssh/school}
+    read -p "Server Target Directory: " loc
+    loc=${loc:-"~/"}
+
+    scp -o StrictHostKeyChecking=no -i "$key" "$@" "$user"@"$server_ip":"$loc"
+fi
