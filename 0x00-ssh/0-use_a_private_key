@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # that script use a ssh key to connect a virtual server
-ssh ubuntu@35.243.130.24 -i ~/.ssh/school
+ssh ubunt-i ~/.ssh/schoolu@35.243.130.24
