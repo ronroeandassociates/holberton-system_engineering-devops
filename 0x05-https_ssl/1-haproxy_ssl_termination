@@ -33,16 +33,16 @@ defaults
         errorfile 504 /etc/haproxy/errors/504.http
 
 frontend www-http
-bind *:80
-mode http
-default_backend webservers
+    bind *:80
+    mode http
+    default_backend webservers
 
 frontend www-https
-bind *:443 ssl crt /etc/haproxy/cert/wwwronolsentech.pem
-default_backend webserver
+        bind *:443 ssl crt /etc/haproxy/cert/wwwronolsentech.pem
+        default_backend webserver
 
 backend webservers
-balance roundrobin
-server 3321-web-01 35.243.130.24:80 check
-server 3321-web-02 34.139.218.97:80 check
-option httpchk
+    balance roundrobin
+    server 3321-web-01 35.243.130.24:80 check
+    server 3321-web-02 34.139.218.97:80 check
+    option httpchk
