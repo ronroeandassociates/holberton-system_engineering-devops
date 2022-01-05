@@ -38,7 +38,7 @@ mode http
 default_backend webservers
 
 frontend www-https
-bind *:443 ssl crt /etc/haproxy/certs/www.ronolsen.tech.pem
+bind *:443 ssl crt /etc/haproxy/cert/wwwronolsentech.pem
 default_backend webserver
 
 backend webservers
