@@ -38,7 +38,7 @@ frontend www-http
     default_backend webservers
 
 frontend www-https
-        bind *:443 ssl crt /etc/ssl/certs/wwwronolsentech.pem
+        bind *:443 ssl crt /etc/ssl/certs/ronolsentech.pem
         default_backend webserver
 
 backend webservers
