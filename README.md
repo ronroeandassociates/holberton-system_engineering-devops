@@ -7,7 +7,7 @@ This repository contains programs and scripts primarily written in Bash and Pyth
 </p>
 
 ## Table of Contents
-
+Name | Description
 --- | ---
 [0x00 Shell Basics](https://github.com/ronroeandassociates/holberton-system_engineering-devops/tree/master/0x00-shell_basics) | Simple file manipulation and folder navigation
 [0x00 ssh](https://github.com/ronroeandassociates/holberton-system_engineering-devops/tree/master/0x00-ssh) | setting up the NGINX server on the WEB servers
