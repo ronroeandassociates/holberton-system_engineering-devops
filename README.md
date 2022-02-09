@@ -1,12 +1,8 @@
+![Dev Op Banner](https://github.com/ronroeandassociates/assets/raw/master/images/hswb_banner.png))
+
 # Holberton System Engineering Devops
 
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/ronroeandassociates/holberton-system_engineering-devops?style=for-the-badge)
-
 This repository contains programs and scripts primarily written in Bash and Python for the System Engineering and Devops curriculum at Holberton School.
-
-<p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
-</p>
 
 ## Table of Contents
 
