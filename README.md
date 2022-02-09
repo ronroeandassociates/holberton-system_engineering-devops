@@ -1,4 +1,4 @@
-![Dev Op Banner](https://github.com/ronroeandassociates/assets/blob/images/hsed_banner.png))
+![Dev Op Banner](https://github.com/ronroeandassociates/assets/blob/master/images/hsed_banner.png)
 
 # Holberton System Engineering Devops
 
