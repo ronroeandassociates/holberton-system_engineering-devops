@@ -1,8 +1,10 @@
+![0x07. Networking basics #0](https://github.com/ronroeandassociates/assets/blob/master/images/0x07_networking_basics_0_banner.png)
+
 # 0x07. Networking basics #0
 
 ## Learning Objectives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to `explain to anyone`, **without the help of Google**:
 
 ### OSI Model
 
@@ -20,7 +22,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What is the Internet
 - What is an IP address
 - What are the 2 types of IP address
-- What is localhost
+- What is `localhost`
 - What is a subnet
 - Why IPv6 was created
 
@@ -31,7 +33,3 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - What is a port
 - Memorize SSH, HTTP and HTTPS port numbers
 - What tool/protocol is often used to check if a device is connected to a network
-
-<p align="center">
-<img src="../images/roeHR-01.png" width=10% height=10%>
-</p>
