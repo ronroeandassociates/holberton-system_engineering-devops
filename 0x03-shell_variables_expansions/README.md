@@ -1,21 +1,52 @@
-This is the README for 0x03-shell_variables_expansions
-files in this directory include
-0-alias
-1-hello_you
-2-path
-3-paths
-4-global variables
-5-local_variables
-6-create_local_variable
-7-create_global_variables
-8-true_knowledge
-9-divide_and_rule
-10-love_exponent_breath
-11-binary_to_decimal
-12-combinations
-13-print_float
-The Learning Objectives is to learn the use of shell initialization files, variables, expansions, and shell arithmetic as well as how to do alias
+![0x03. Shell, init files, variables and expansions](https://github.com/ronroeandassociates/assets/blob/master/images/0x03_shell_variable_expansion_banner.png)
 
-<p align="center">
-<img src="../images/roeHR-01.png" width=10% height=10%>
-</p>
+# 0x03. Shell, init files, variables and expansions
+
+## Learning Objectives
+
+At the end of this project, you are expected to be able to `explain to anyone`, **without the help of Google**:
+
+### General
+
+- What happens when you type `$ ls -l *.txt`
+
+### Shell Initialization Files
+
+- What are the `/etc/profile` file and the `/etc/profile`.d directory
+- What is the `~/.bashrc` file
+
+### Variables
+
+- What is the difference between a local and a global variable
+- What is a reserved variable
+- How to create, update and delete shell variables
+- What are the roles of the following reserved variables: HOME, PATH, PS1
+- What are special parameters
+- What is the special parameter `$?`?
+
+### Expansions
+
+- What is expansion and how to use them
+- What is the difference between single and double quotes and how to use them properly
+- How to do command substitution with $() and backticks
+
+### Shell Arithmetic
+
+```
+* How to perform arithmetic operations with
+the shell
+```
+
+### The `alias` Command
+
+```
+* How to create an alias
+* How to list aliases
+* How to temporarily disable an alias
+```
+
+### Other `help` pages
+
+```
+* How to execute commands from a file in the current shell
+```
