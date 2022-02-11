@@ -1,3 +1,5 @@
+![0x07. Application server](https://github.com/ronroeandassociates/assets/blob/master/images/0x07_application_server.png)
+
 # 0x07. Application server
 
 - 0. Set up development with Python
