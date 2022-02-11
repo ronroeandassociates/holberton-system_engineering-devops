@@ -1,8 +1,10 @@
+![0x0E. API](https://github.com/ronroeandassociates/assets/blob/master/images/0x0E_api.png)
+
 # 0x0E. API
 
 ## Learning Objectives
 
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to `explain to anyone`, **without the help of Google**:
 
 ## General
 
@@ -18,7 +20,3 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Pythonic Function name style
 - Pythonic Constant name style
 - Significance of CapWords or CamelCase in Python
-
-<p align="center">
-<img src="/images/roeHR-01.png" width=10% height=10%>
-</p>
