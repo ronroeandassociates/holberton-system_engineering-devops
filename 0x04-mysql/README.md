@@ -1,32 +1,12 @@
+![0x04. MySQL](https://github.com/ronroeandassociates/assets/blob/master/images/0x04_mysql.png)
+
 # 0x04. MySQL
-
-## Resources
-
-### Read or watch:
-
-- What is a primary-replica cluster
-- MySQL primary replica setup
-- Build a robust database backup strategy
-
-#### man or help:
-
-- mysqldump
 
 ## Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-## General
-
 - What is the main role of a database
 - What is a database replica
 - What is the purpose of a database replica
 - Why database backups need to be stored in different physical locations
-
-## Author
-
-- Ron Olsen
-
-<p align="center">
-<img src="../images/roeHR-01.png" width=10% height=10%>
-</p>
