@@ -8,6 +8,7 @@
     export data in the JSON format
 '''
 
+
 import json
 import requests
 import sys
@@ -16,12 +17,16 @@ import sys
 if __name__ == '__main__':
     id_c = sys.argv[1]
     url = "https://jsonplaceholder.typicode.com/"
-    users = requests.get("https://jsonplaceholder.typicode.com/users/{}"
-                         .format(id_c)).json()
-    todos = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
-                         .format(sys.argv[1])).json()
+    users = requests.get(
+        f"https://jsonplaceholder.typicode.com/users/{id_c}"
+    ).json()
 
-    with open("{}.json".format(id_c), "w") as user_id:
+    todos = requests.get(
+        f"https://jsonplaceholder.typicode.com/todos?userId={sys.argv[1]}"
+    ).json()
+
+
+    with open(f"{id_c}.json", "w") as user_id:
         json.dump({id_c: [{
             'task': task.get('title'),
             'completed': task.get('completed'),
